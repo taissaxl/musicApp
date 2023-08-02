@@ -31,12 +31,11 @@ public class Audio {
         return rating;
     }
 
-    public void likes(){
+    public void like(){
         this.likes++;
     }
 
-    public void playAudio(Audio audio) {
-        System.out.println("Now playing");
+    public void playAudio() {
         this.totalListeners++;
     }
 
