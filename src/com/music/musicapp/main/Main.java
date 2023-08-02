@@ -13,7 +13,7 @@ public class Main {
         music.setTitle("NASA");
         music.setArtist("Ariana Grande");
 
-        for (int i = 0; i < 254987234; i++) {
+        for (int i = 0; i < 254987235; i++) {
             music.playAudio();
         }
 
