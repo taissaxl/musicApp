@@ -33,4 +33,12 @@ public class Podcast extends Audio {
     public int getEpisode() {
         return episode;
     }
+
+    @Override
+    public int getRating(){
+        if(this.getLikes() > 200)
+            return 10;
+        else
+            return 8;
+    }
 }

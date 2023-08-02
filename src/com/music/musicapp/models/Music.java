@@ -28,4 +28,12 @@ public class Music extends Audio {
     public void setAlbum(String album) {
         this.album = album;
     }
+
+    @Override
+    public int getRating(){
+        if(this.getTotalListeners() > 2000)
+            return 10;
+        else
+            return 8;
+    }
 }
