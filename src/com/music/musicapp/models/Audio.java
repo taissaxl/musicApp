@@ -5,7 +5,7 @@ public class Audio {
     private double duration;
     private int totalListeners;
     private int likes;
-    private double rating;
+    private int rating;
 
     public String getTitle() {
         return title;
@@ -27,10 +27,6 @@ public class Audio {
         return likes++;
     }
 
-    public double getRating() {
-        return rating;
-    }
-
     public void like(){
         this.likes++;
     }
@@ -39,4 +35,7 @@ public class Audio {
         this.totalListeners++;
     }
 
+    public int getRating() {
+        return rating;
+    }
 }
